@@ -132,7 +132,7 @@ class SomeClass {
     static var computedTypeProperty: Int {
         return 27
     }
-    class var overrideableComputedTypeProperty: Int {
+    class var overrideableComputedTypeProperty: Int { // Subclass can override it
         return 107
     }
 }
